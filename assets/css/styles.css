@@ -1,0 +1,144 @@
+html{
+    font-size: 62.5%;
+    /* 1 rem = 10 px */
+}
+
+body{
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    position: relative;
+    top: 0;
+}
+
+header h1{
+    font-size: 5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 0;
+}
+
+header img{
+    width: 100%;
+    display: block;
+}
+
+.informacion{
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+}
+
+.izquierda{
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: left;
+    color: #FFFFFF;
+    width: 37.11%;
+    padding-left: 150px;
+    float: left;
+    padding-top: 25px;
+}
+
+
+.derecha{
+    width: 31.25%;
+    padding-right: 150px;
+    float:right;
+    padding-bottom: 5px;
+}
+
+.derecha img{
+    width: 399px;
+    height: 237px;
+}
+
+.caracteristicas{
+    background-color:#1E1A13;
+    height: 348px;
+    font-size: 4rem;
+    color: #ffffff;
+
+}
+.caracteristicas h1{
+    padding-top: 75px;
+}
+
+.iconografia{
+    width: 70%;
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 300;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.left_icon{
+    width: 20%;
+    float: left;
+    margin: auto 0;
+}
+
+.center_icon{
+    width: 20%;
+    margin: auto 0;
+}
+
+.right_icon{
+    width: 20%;
+    float: right;
+    margin: auto 0;
+}
+
+.galeria{
+    height: 348px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.galeria div{
+    padding-top: 73px;
+}
+
+.galeria img{
+    width: 316px;
+    height: 202px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+
+footer{
+    bottom: 0px;
+    height: 102px;
+    width: 100%;
+    background-color: #1E1A13;
+    opacity: 94%;
+    font-size: 2rem;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:visited{
+    color: #FFFFFF;
+}
+
+footer a:hover{
+    color:lime;
+}
+
+
